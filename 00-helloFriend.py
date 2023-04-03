@@ -15,3 +15,9 @@ print (type(6))                 # Tipo 'int'
 print (type(True))              # Tipo 'bool'
 print (type(1 + 3j))            # Tipo 'complex'
 
+# Inputs 
+
+name = input("¿Cual es tu nombre?")
+age = input("¿Cual es tu edad?")
+
+print("Tu edad es:", age, " Y tu nombre es:" , name,)
