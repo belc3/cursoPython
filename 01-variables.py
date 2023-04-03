@@ -26,4 +26,4 @@ print(var_bool, var_float, var_int, var_string)
 var_int_to_string = str (var_int)
 var_float_to_string = str(var_float)
 
-print(len(var_int)) #esta funcion sirve para contar los caracteres de un string o 
+print(len(var_string)) #esta funcion sirve para contar los caracteres de un string.

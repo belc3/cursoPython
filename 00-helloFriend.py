@@ -12,6 +12,6 @@ print ('Hello Friend 2... :)')
 print (type('Hello Friend'))    # Tipo 'str'
 print (type(1.6))               # Tipo 'float'
 print (type(6))                 # Tipo 'int'
-print (type(True))              # Tipo 'boolean'
+print (type(True))              # Tipo 'bool'
 print (type(1 + 3j))            # Tipo 'complex'
 
