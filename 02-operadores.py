@@ -1,6 +1,10 @@
 # Es importante saber que PYTHON tiene distintos tipos de operadores, existen operadores SIMPLES, ARITMETICOS
 # y de COMPARACION. veremos algunos de ellos en esta clase.
 
+int = 3
+int2 = 3
+print(int + int2) 
+
 print(4 + 5) # Suma
 print(4 - 5) # Resta
 print(4 * 5) # Multiplicacion
@@ -14,8 +18,25 @@ print("Hello" + " Friend")
 # De igual manera no podemos mezclar tipos de datos en una concatenacion, en dado caso deberemos usar funciones
 # del sistema que nos permitan cambiar el tipo de dato para la correcta operacion. 
 print("Hello " + "Friend " + str(5))
+# Pero si podemos multiplicar una palabra. 
+print(" Hello Friend " * 5) 
 
+# Operadores comparativos 
 
-int = 3
-int2 = 3
-print(int + int2) 
+print(5 <= 4)
+print(5 >= 4)
+print(5 < 4)
+print(5 > 4)
+print(5 == 4)
+print(5 != 4)
+
+# Como dato extra, tomemos en cuenta que al momento de hacer operaciones comparativas en 
+# algun String, lo que hara es una comparacion ALFABETICA x ASCII.
+
+print("Hola" <= "Aquel")
+print("Hola" >= "Odin")
+print("Hola" == "Loki")
+print("Holas" != "Thor")
+
+# Operadores Logicos
+
